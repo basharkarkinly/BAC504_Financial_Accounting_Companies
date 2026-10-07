@@ -150,6 +150,8 @@ img{ max-width:100%; }
 .btn-primary:hover{ transform:translateY(-2px); box-shadow:0 10px 20px -8px rgba(255,159,28,.55); }
 .btn-ghost{ background:rgba(255,255,255,.08); color:#fff; border:1px solid rgba(255,255,255,.25); }
 .btn-ghost:hover{ background:rgba(255,255,255,.16); }
+.btn-ghost[href$="index.html"]{ background:#A349A4; color:#fff; border:1px solid #A349A4; }
+.btn-ghost[href$="index.html"]:hover{ background:#8C3C8D; border-color:#8C3C8D; }
 .btn-teal{ background:var(--teal); color:#04231F; }
 .btn-teal:hover{ transform:translateY(-2px); box-shadow:0 10px 20px -8px rgba(31,182,168,.5); }
 .btn:disabled{ opacity:.5; cursor:not-allowed; transform:none !important; box-shadow:none !important; }
